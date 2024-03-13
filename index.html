@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agasthya Ceramics Responsive</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+
+<body>
+    <header>
+        <nav id="Home">
+            <div class="nav-part1">
+                <img src="../Images/Logo.png" class="Logo" alt="logo">
+                <h2>AGASTHYA CERAMICS</h2>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#About">About</a></li>
+                <li><a href="#Products">Products</a></li>
+                <li><a href="#Contact">Contact</a></li>
+                <img src="../Images/menu.png" alt="menu img">
+            </ul>
+        </nav>
+    </header>
+    <div class="Hero-Content">
+        <div class="left">
+            <h1>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus, libero.</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex autem hic nam neque enim ipsam sequi sit
+                minima fugit. Beatae.</p>
+            <button class="Hero-Button" onclick="location.href='./#About'">Lets Get Started</button>
+        </div>
+    </div>
+        
+    
+    <section id="About">
+        <div class="About-Content">
+            <div class="About-left">
+                <img class="img1" src="../Images/Intro Images1.png" alt="">
+                <img class="img2" src="../Images/Intro Images2.png" alt="">
+            </div>
+            <div class="About-right">
+                <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, molestias?</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id culpa sint quasi quidem atque ipsam
+                    explicabo ut, enim asperiores doloribus, ipsum, quod debitis quae dignissimos. Sequi nam repellat
+                    blanditiis velit. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi, cupiditate?
+                </p>
+            </div>
+        </div>
+    </section>
+    <section id="Products">
+        <div class="Product-Content">
+            <div class="Product-left">
+                <h2 class="Product-heading heading1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi,
+                    earum!</h2>
+                <p class="Product-para heading1">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga
+                    aspernatur molestias beatae eveniet incidunt itaque illo iure harum nobis ea.</p>
+            </div>
+            <div class="Product-right">
+                <img class="Product-img Pro-img1" src="../Images/Product Image 1.png" alt="Product Img">
+            </div>
+
+            <div class="Product-right">
+                <img class="Product-img Pro-img2" src="../Images/Product Image 2.png" alt="Product Img">
+            </div>
+            <div class="Product-left">
+                <h2 class="Product-heading heading2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi,
+                    earum!</h2>
+                <p class="Product-para heading2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga
+                    aspernatur molestias beatae eveniet incidunt itaque illo iure harum nobis ea.</p>
+            </div>
+
+            <div class="Product-left">
+                <h2 class="Product-heading heading3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi,
+                    earum!</h2>
+                <p class="Product-para heading3">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga
+                    aspernatur molestias beatae eveniet incidunt itaque illo iure harum nobis ea.</p>
+            </div>
+            <div class="Product-right">
+                <img class="Product-img Pro-img3" src="../Images/Product Image 3.png" alt="Product Img">
+            </div>
+        </div>
+    </section>
+    <section id="Contact">
+        <div class="Contact-Content">
+            <h4 class="ContactInfoHeading">Contact Info</h4>
+            <div class="contact-left">
+                <div class="contact-icon">
+                    <img  src="../Images/Destination.png" alt="Location" height="45vh" width="40vw">
+                </div>
+                <div class="contact-info">
+                        <a>Agasthya, Mulamoodu, Poovachal, Thiruvananthpuram, Kerala</a>
+                </div>
+                <div class="contact-icon">
+                    <img src="../Images/Message.png" alt="Location" height="45vh" width="40vw">
+                </div>
+                <div class="contact-info">
+                    <a href="tel:+91-9446493230">+91-9446493230</a>
+                </div>
+                <div class="contact-icon">
+                    <img src="../Images/Email.png" alt="Location" height="45vh" width="40vw">
+                </div>
+                <div class="contact-info">
+                    <a href="mailto:agasthyaceramicspvt@gmail.com">agasthyaceramicspvt@gmail.com</a>
+                </div>
+            </div>
+            <div class="Social-logo">
+                <img src="../Images/Instagram.png" alt="Instagram">
+                <img src="../Images/Linkedin.png" alt="Instagram">
+                <img src="../Images/Twitter.png" alt="Instagram">
+            </div>
+        </div>
+        <div class="ContactForm" >
+            <h4 class="ContactFormHeading">Send a Message</h4>
+            <form action="https://api.web3forms.com/submit" method="POST" >
+                <input type="hidden" name="access_key" value="c4b92395-dlfa-4373-b7cf-4336ea89b568">
+                <div class="row">
+                    <div class="column field">
+                        <label for="name">First Name</label>
+                        <input type="text" class="item" required  name="FirstName" placeholder="Sid" oninvalid="this.setCustomValidity('Please Enter Your First Name')" oninput="this.setCustomValidity('')">
+                    </div>
+                    <div class="column field" >
+                        <label for="Lastname">Last Name</label>
+                        <input type="text" id="LastName" required  name="LastName" class="item" placeholder="Nair" autocomplete="off" oninvalid="this.setCustomValidity('Please Enter Your Last Name')" oninput="this.setCustomValidity('')">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="column field">
+                        <label for="subject">Email</label>
+                        <input type="email" id="Email" required  name="email" placeholder="Email Address" autocomplete="off" oninvalid="this.setCustomValidity('Please Enter Your Email Address')" oninput="this.setCustomValidity('')">
+                    </div>
+                    <div class="column field">
+                        <label for="contact">Contact Number</label>
+                        <input type="tel" id="contact" required  name="phone" placeholder="Mobile Number" autocomplete="off" oninvalid="this.setCustomValidity('Please Enter Your Phone No')" oninput="this.setCustomValidity('')" pattern="[1-9]{1}[0-9]{9}">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="column field">
+                        <label for="message">Write Your Message Here...</label>
+                        <textarea id="message" required  name="message" placeholder="Describe your Message in detail here" rows="5"  autocomplete="off" oninvalid="this.setCustomValidity('Please Enter Your Message')" oninput="this.setCustomValidity('')"></textarea>
+                    </div>
+                </div>
+                <button class="Contact-Button" type="submit" value="submit">Send</button>
+            </form>
+            </div>
+    </section>
+    <footer>
+        <div class="FooterSection">
+            <img src="../Images/Logo White.png" alt="Logo Image" class="FooterLogo">
+            <div class="Logo-Text">AGASTHYA CERAMICS</div>
+            <nav class="FooterNav">
+                <ul class="Footerlinks">
+                    <li><a href="#Home">Home</a></li>
+                    <li><a href="#About">About</a></li>
+                    <li><a href="#Products">Products</a></li>
+                    <li><a href="#Contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="Copyright">
+            <img class="footer-img1" src="../Images/footer-one.png" alt="footer image" >
+            <p>Copyright © 2024 Agasthya Ceramics®. All rights reserved.</p>
+            <img class="footer-img" src="../Images/footer-two.png" alt="footer image">
+        </div>
+    </footer>
+    <script src="../script.js"></script>
+</body>
+</html>
