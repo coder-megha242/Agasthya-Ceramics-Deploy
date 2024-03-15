@@ -518,10 +518,11 @@ footer {
 
     .About-left .img1 {
         margin-top: 13.5vw;
+        height: 55vh;
     }
 
     .About-left .img2 {
-        height: 82vh;
+        height: 80vh;
         width: 23vw;
     }
 
