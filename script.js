@@ -21,3 +21,6 @@ window.addEventListener("scroll", function(){
     var header = this.document.querySelector("header");
     header.classList.toggle("sticky", window.scrollY > 0)
 });
+
+let menuList = document.getElementById("menuList");
+menuList.style.maxHeight = "0px"

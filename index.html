@@ -10,20 +10,21 @@
 
 <body>
     <header>
-        <nav id="Home">
+        <nav id="Navbar">
             <div class="nav-part1">
                 <img src="../Images/Logo.png" class="Logo" alt="logo">
                 <h2>AGASTHYA CERAMICS</h2>
             </div>
-            <ul class="nav-links">
+            <ul id="menuList">
                 <li><a href="#Home">Home</a></li>
                 <li><a href="#About">About</a></li>
                 <li><a href="#Products">Products</a></li>
                 <li><a href="#Contact">Contact</a></li>
-                <img src="../Images/menu.png" alt="menu img">
             </ul>
+            <img class="nav-part2" src="../Images/menu.png" onclick="toggleMenu()" alt="menu img">
         </nav>
     </header>
+   <section id="Home">
     <div class="Hero-Content">
         <div class="left">
             <h1>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus, libero.</h1>
@@ -32,6 +33,7 @@
             <button class="Hero-Button" onclick="location.href='./#About'">Lets Get Started</button>
         </div>
     </div>
+   </section>
         
     
     <section id="About">
@@ -114,7 +116,7 @@
         <div class="ContactForm" >
             <h4 class="ContactFormHeading">Send a Message</h4>
             <form action="https://api.web3forms.com/submit" method="POST" >
-                <input type="hidden" name="access_key" value="c4b92395-dlfa-4373-b7cf-4336ea89b568">
+                <input type="hidden" name="access_key" value="c4b92395-d1fa-4373-b7cf-4336ea89b568">
                 <div class="row">
                     <div class="column field">
                         <label for="name">First Name</label>
