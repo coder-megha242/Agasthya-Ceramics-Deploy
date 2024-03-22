@@ -33,7 +33,7 @@ header {
 }
 
 header.sticky {
-    padding: 5px 100px;
+    padding: 5px;
     background-color: #6E64CD;
     top: 0;
 }
@@ -56,20 +56,20 @@ nav {
 
 .nav-part1 {
     display: flex;
-    gap: 1vw;
+    gap: 0.5vw;
     align-items: center;
 }
 
 .nav-part1 h2 {
-    font-size: 1.8vw;
+    font-size: 1.9vw;
     font-family: 'Chau Philomene One', sans-serif;
     color: #352E7B;
     font-weight: 500;
 }
 
 .Logo {
-    height: 9vh;
-    width: 6vw;
+    height: 14vh;
+    width: 10vw;
 }
 
 ul {
@@ -85,7 +85,7 @@ ul li a {
     color: black;
     font-family: 'Merriweather', serif;
 }
-.nav-part2{
+.icon{
     height: 4vh;
     width: 2vw;
     display: none;
@@ -522,7 +522,7 @@ footer {
 
     .About-left .img1 {
         margin-top: 13.5vw;
-        height: 55vh;
+        height: 56vh;
     }
 
     .About-left .img2 {
@@ -561,25 +561,26 @@ footer {
         background-image: url('./Images/Swap\ Hero\ Image.png');
         background-position: 10vh 38vw;
         background-size: 90vw 50vh;
-
     }
 
     nav {
         height: 60px;
         background-color: #6E64CD;
         padding: 0 5vw;
-    }
-    /* nav ul{
+    } 
+    nav ul{
+        width: 35vw;
+        height: 60vh;
         position: absolute;
-        top: 70px;
-        left: 0;
+        top: 60px;
         right: 0;
-        flex-direction: column;
-        text-align: center;
+        /* left: 0; */
         background-color: #6E64CD;
-        gap: 0;
-        
-    } */
+        text-align: center;
+        flex-direction: column;
+        overflow: hidden;
+        display: none;
+    }
     .nav-part1 h2 {
         font-size: 3vw;
     }
@@ -595,22 +596,26 @@ footer {
         color: #352E7B;
         font-weight: 500;
     }
+    nav ul li {
+        overflow: hidden;
+    }
 
-    ul li a {
+    nav ul li a {
         color: white;
-        display: none;
-        font-size: 2.5vw;
+        /* display: none; */
+        font-size: 3vw;
         padding: 1vw;
+        margin: 20px;
+       
         
     }
-    .nav-part2{
+    .icon{
         height: 4.5vh;
         width: 4vw;
-        display: block;
+        display: flex;
     }
 
     /* Hero content  */
-
     .left {
         height: 100%;
         width: 100%;
@@ -656,6 +661,7 @@ footer {
         padding: 3vw;
         margin-top: 15vh;
         background-size: 100% 90vh;
+        padding: 5vw;
     }
 
     .About-left .img1 {
@@ -738,8 +744,6 @@ footer {
         margin-left: 4vw;
         margin-top: 40vw;
     }
-
-
 
     /* Contact section start here  */
 
