@@ -517,7 +517,7 @@ footer {
     body {
         background-image: url('./Images/ImageHeroSectionCopy.png'), url('./Images/Hero-one.png'), url('./Images/Product-two.png'), url('./Images/Product-one.png');
         background-repeat: no-repeat;
-        background-position: 55vw 0, 92vw 11vw, 92vw 155vw, -5vw 360vh;
+        background-position: 55vw 0, 92vw 11vw, 92vw 130vw, -5vw 360vh;
     }
 
     .About-left .img1 {
@@ -531,7 +531,7 @@ footer {
     }
 
     #Contact {
-        margin-top: 62vw;
+        margin-top: 55vw;
         height: 95vh;
         background-size: 100% 95vh;
     }
